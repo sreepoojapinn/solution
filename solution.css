@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@700&display=swap');
+body{
+    font-family: 'Blinker', sans-serif;
+}
+ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+ul li:hover{
+    color: darkblue;
+}
+header {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 50px;
+}
+h1 {
+    font-size: 4em;
+}
+h2{
+    font-size: 2em;
+}
+
+.solution {
+    text-align: center;
+    padding: 20px 50px;
+    color: black;
+    background-image: url(https://i.pinimg.com/originals/3c/88/8e/3c888e6cbe48ade2b7cb6211fdf36b2f.jpg);
+}
+
+.solution img {
+    border: 3px solid white;
+}
+
+#happyalternatives{
+    background-color: darkcyan;
+}
+
+ol{
+    justify-content: left;
+    display: block;
+}
+
